@@ -105,7 +105,7 @@ function writetosheets(auth) {
   sheets.spreadsheets.values.update({
     auth : auth,
     //sheetID of 2018 Affinity Group Chairs in IEEE Young Professionals > Website - Dinko & Shashank > YP Website - Officers nfo
-    spreadsheetId: '1zk3EOZS-dhgoasuOdyG6cj1X-cIrA1GrWMTsLbriidw',
+    spreadsheetId: '........',
     range: 'Automated!A1:D', //Change Automated if your worksheet's name is something else
     valueInputOption: "USER_ENTERED",
     resource: {
@@ -123,7 +123,7 @@ function writetosheets(auth) {
   sheets.spreadsheets.values.update({
     auth : auth,
     //sheetID of Missing OU in Database in IEEE Young Professionals > Website - Dinko & Shashank > YP Website - Officers nfo
-    spreadsheetId: '1tWooGUHuuuz5eY2LC1IOZ0fhipbpA110cstVPwI4Ow0',
+    spreadsheetId: '......',
     range: 'Affinity!A1:D', //Change Affinity if your worksheet's name is something else
     valueInputOption: "USER_ENTERED",
     resource: {
