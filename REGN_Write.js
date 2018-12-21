@@ -101,7 +101,7 @@ function writetosheets(auth) {
   sheets.spreadsheets.values.update({
     auth : auth,
     //sheetID of 2018 Regional Coordinators in IEEE Young Professionals > Website - Dinko & Shashank > YP Website - Officers nfo
-    spreadsheetId: '1s7BhuQSHdiUTDOi9vAuPPkM_B9filpvBvhWmLQIboAM',
+    spreadsheetId: '......',
     range: 'Automated!A1:D', //Change Automated if your worksheet's name is something else
     valueInputOption: "USER_ENTERED",
     resource: {
@@ -119,7 +119,7 @@ function writetosheets(auth) {
   sheets.spreadsheets.values.update({
     auth : auth,
     //sheetID of Missing OU in Database in IEEE Young Professionals > Website - Dinko & Shashank > YP Website - Officers nfo
-    spreadsheetId: '1tWooGUHuuuz5eY2LC1IOZ0fhipbpA110cstVPwI4Ow0',
+    spreadsheetId: '.....',
     range: 'Region!A1:D', //Change Region if your worksheet's name is something else
     valueInputOption: "USER_ENTERED",
     resource: {
