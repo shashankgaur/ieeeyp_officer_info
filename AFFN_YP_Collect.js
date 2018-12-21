@@ -9,7 +9,7 @@ function getRegionalYPofficer(accessToken, geocode){
         'Authorization': 'Bearer ' + accessToken,
         'Content-Type': 'application/json'
       },
-      uri: 'https://services15.ieee.org/RST/yp/affnoff',
+      uri: 'https://services.ieee.org/RST/yp/affnoff',
       body: '{ "AFFN": "YP'+geocode+'*" }',
       method: 'POST'
     }, function (err, res, body) {
@@ -23,8 +23,8 @@ function getAccessToken(geocode){
       url: 'https://services15.ieee.org/RST/api/oauth/token',
       method: 'POST',
       form: {
-        'client_id': '3884c5f8-af59-4dbf-9464-6ff7b88fe733',
-        'client_secret': '0156cc96-656a-4c25-b811-739bc27e58d2',
+        'client_id': '000000',
+        'client_secret': '00000',
         'grant_type': 'client_credentials',
         'scope': 'YP_GetOfficers'
       }
