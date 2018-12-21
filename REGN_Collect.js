@@ -8,7 +8,7 @@ function getRegionalYPofficer(accessToken){
         'Authorization': 'Bearer ' + accessToken,
         'Content-Type': 'application/json'
       },
-      uri: 'https://services13.ieee.org/RST/yp/regnoff',
+      uri: 'https://services.ieee.org/RST/yp/regnoff',
       body: '{ "YP": "REGN" }',
       method: 'POST'
     }, function (err, res, body) {
@@ -19,11 +19,11 @@ function getRegionalYPofficer(accessToken){
 //requesting the access token
 function getAccessToken(){
     request({
-      url: 'https://services13.ieee.org/RST/api/oauth/token',
+      url: 'https://services.ieee.org/RST/api/oauth/token',
       method: 'POST',
       form: {
-        'client_id': '00862c2c-ac96-4d5f-90fd-28ef981a18e4',
-        'client_secret': '289fe917-d079-474f-91e2-20b1b980ecd1',
+        'client_id': '0000',
+        'client_secret': '0000',
         'grant_type': 'client_credentials',
         'scope': 'YP_GetOfficers'
       }
